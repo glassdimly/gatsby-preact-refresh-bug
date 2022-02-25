@@ -1,0 +1,16 @@
+{    
+    "presets": ["next/babel"],
+    "plugins": [
+        [
+            "module-resolver",
+            {
+                "alias": {
+                    "@atoms": "./components/atoms",
+                    "@molecules": "./components/molecules",
+                    "@organisms": "./components/organisms",
+                    "@layouts": "./components/layouts"
+                }
+            }
+        ]
+    ]
+}
